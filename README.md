@@ -69,10 +69,21 @@ This file contains a number of front-end interview questions that can be used wh
   http://www.nomensa.com/blog/2010/7-tips-and-techniques-for-multi-lingual-website-accessibility 
 
 * What are `data-` attributes good for?
+  useful for storing custom element associated data. can be accessed using CSS/JS. can cause problems in internet explorer( v < 11 ). Be careful while accessing using javascript use camel case notation to access data.
+
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
+  http://www.w3.org/wiki/HTML_structural_elements
+  instead of extensive use of div and span as suggested by HTML4, we have semantic meaning to structure like header, footer, section which is recognizable to machine like reader, braille.
+
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
+http://stackoverflow.com/questions/19867599/what-is-the-difference-between-localstorage-sessionstorage-session-and-cookie
+
 * Describe the difference between `<script>`, `<script async>` and `<script defer>`.
+  both async and defer scripts are downloaded without pausing parser independently. async runs script as soon as its downloaded, it may run scripts out of sequence. but defer will run script in sequence.
+
 * Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`? Do you know any exceptions?
+  http://stackoverflow.com/questions/6625773/where-should-i-put-the-css-and-javascript-code-in-an-html-webpage 
+
 * What is progressive rendering?
 * Have you used different HTML templating languages before?
 
