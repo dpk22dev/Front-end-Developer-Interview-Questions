@@ -47,11 +47,27 @@ This file contains a number of front-end interview questions that can be used wh
 #### HTML Questions:
 
 * What does a `doctype` do?
+  http://stackoverflow.com/questions/6076432/why-do-i-need-a-doctype-what-does-it-do
+
 * What's the difference between standards mode and quirks mode?
+  https://developer.mozilla.org/en-US/docs/Quirks_Mode_and_Standards_Mode  
+  we need to tell browser using DOCTYPE to use standard mode else browser will open page in quirk mode. Below explains how its done:
+  http://reference.sitepoint.com/css/doctypesniffing
+
+* Meaning of SGML and DTD with respect to HTML
+  http://stackoverflow.com/questions/21566680/what-is-the-meaning-of-dtd-and-sgml-in-html
+  https://www.debian.org/doc/manuals/sgml-howto/x59.html explains that SGML and DTD is not only limited to web. It is used in source codes, compilers. Doc type can be anything like linuxdoc, docbook. we need to tell SGML tool doc type used by us.
+
 * What's the difference between HTML and XHTML?
+  http://www.webstandards.org/learn/articles/askw3c/oct2003/
+
 * Are there any problems with serving pages as `application/xhtml+xml`?
+  IE 6 does understand this mime and pops up download option without rendering page. 
+
 * How do you serve a page with content in multiple languages?
 * What kind of things must you be wary of when design or developing for multilingual sites?
+  http://www.nomensa.com/blog/2010/7-tips-and-techniques-for-multi-lingual-website-accessibility 
+
 * What are `data-` attributes good for?
 * Consider HTML5 as an open web platform. What are the building blocks of HTML5?
 * Describe the difference between a `cookie`, `sessionStorage` and `localStorage`.
