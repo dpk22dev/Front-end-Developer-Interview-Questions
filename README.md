@@ -85,14 +85,27 @@ http://stackoverflow.com/questions/19867599/what-is-the-difference-between-local
   http://stackoverflow.com/questions/6625773/where-should-i-put-the-css-and-javascript-code-in-an-html-webpage 
 
 * What is progressive rendering?
+  some browsers don't show the content( say image ) untill it is fully loaded in memory. but some show it gradually. it can happen with <table> tag. some say progressive rendering is bad user experience while some say opposite.
+
 * Have you used different HTML templating languages before?
+  on server side we want to separate application logic and content from its presentation. for this we use templating engines. like with PHP we can use smarty. html can be written in template file, but php variables can be used with many option to put data in page. similarly for javascript ( using node ) on server we can use Jade or mustache.
 
 #### CSS Questions:
 
 * What is the difference between classes and ID's in CSS?
+  http://stackoverflow.com/questions/12889362/difference-between-id-and-class-in-css-and-when-to-use-it 
+
 * What's the difference between "resetting" and "normalizing" CSS? Which would you choose, and why?
+  in resetting we reset browser defaults too much, so when we add our own rules we need define properties accordingly( more in number ), but normalize changes the default, choosing more appropriate defaults where there are differences. so developer has to add less rules in normalizing css.
+https://the-pastry-box-project.net/oli-studholme/2013-june-3
+so normalize.css can be more favourable.
+
 * Describe Floats and how they work.
+  https://css-tricks.com/all-about-floats/ 
+
 * Describe z-index and how stacking context is formed.
+  http://philipwalton.com/articles/what-no-one-told-you-about-z-index/
+
 * Describe BFC(Block Formatting Context) and how it works.
 * What are the various clearing techniques and which is appropriate for what context?
 * Explain CSS sprites, and how you would implement them on a page or site.
